@@ -13,3 +13,7 @@ POST http://localhost:8080/api/v1/config/activate
 Content-Type: application/json
 
 false
+
+###
+
+GET http://localhost:8080/actuator/metrics/http.server.requests
